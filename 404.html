@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>植知 · 在线课程</title><script>
+const prefix='/plant-nutrition-lab/',name=location.pathname.startsWith(prefix)?location.pathname.slice(prefix.length):null;
+const lessons=new Set(['uptake','minimum','nitrogen','blocks','splitplot','normal','t-normal','trial-story','interaction','soil-culture','sand-culture','hydro-culture','measurement-error']);
+let page=null;
+if(name===''||name==='index.html')page='index.html';else if(name==='agent.html')page='agent.html';else if(name==='normal.html')page='lessons/normal.html';else if(name?.startsWith('lessons/')&&name.endsWith('.html')&&lessons.has(name.slice(8,-5)))page=name;
+if(page)location.replace('https://agent.csat-r.cn/'+page+location.search+location.hash);
+</script></head><body data-site-entry-fallback><p><a href="https://agent.csat-r.cn/index.html">进入植知在线课程</a></p></body></html>
