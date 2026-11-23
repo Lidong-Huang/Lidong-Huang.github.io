@@ -1,2 +1,5 @@
-# Lidong-Huang.github.io
-Course access entry only; no teaching resource source files.
+# 植知课程访问入口
+
+本仓库只提供在线课程的跳转页面，不存放课件源码、教材或智能体后端。
+
+[进入在线课程](https://agent.csat-r.cn/index.html)
